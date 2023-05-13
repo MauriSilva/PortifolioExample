@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/9f1bf49629.js" crossorigin="anonymous"></script>
+    <title>Mauricio Ferraz</title>
+</head>
+<body>
+    
+<div id="header">
+    <div class="container">
+        <nav>
+            <ul id="sideMenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portifolio">Portifolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Software Engenier jr.</p>
+            <h1>Hi, I'm <span>Mauricio</span><br>From Brazil</h1>
+        </div>
+    </div>
+</div>
+
+<!-- ----------------about ----------------- -->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur pariatur nulla fugit numquam natus. Nemo, ab. Tenetur minima molestiae illum expedita officiis incidunt ipsum, maiores facere corrupti aliquid libero temporibus.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>C#</span><br>Delevoping web Applications</li>
+                        <li><span>HTML/CSS</span><br> Developing Web pages like this one</li>
+                        <li><span>SQL</span><br>Design and structure of DataBases</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2022 - 2023</span><br>Back-end Developer internship at ExcelBR</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2019 - 2022</span><br>Sistem Development at technical school ETEC Paulistano</li>
+                        <li><span>2022 - 2026</span><br>Sistem development at FMU college</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- -------------services-------------- -->
+
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-file-code" style="color: #F049FF"></i>
+                <h2>C# Developer</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam vel recusandae quam corporis eveniet voluptate quidem nostrum suscipit libero? Labore perferendis dolores debitis consectetur tempore corrupti nemo iusto fugit maiores.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-code" style="color: #F049FF"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam vel recusandae quam corporis eveniet voluptate quidem nostrum suscipit libero? Labore perferendis dolores debitis consectetur tempore corrupti nemo iusto fugit maiores.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database" style="color: #F049FF"></i>
+                <h2>SQL</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam vel recusandae quam corporis eveniet voluptate quidem nostrum suscipit libero? Labore perferendis dolores debitis consectetur tempore corrupti nemo iusto fugit maiores.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="portifolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Socia Media App</h3>
+                    <p>Social Media app that connects people lorem ipsum dolor sit ame lorem impum dolor sit amer lorem ipsum dolor sit amet </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Social Media app that connects people lorem ipsum dolor sit ame lorem impum dolor sit amer lorem ipsum dolor sit amet </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping app</h3>
+                    <p>Social Media app that connects people lorem ipsum dolor sit ame lorem impum dolor sit amer lorem ipsum dolor sit amet </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><a href=""><i class="fa-solid fa-paper-plane"></i></a> contact@exemple.com</p>
+                <p><a href=""><i class="fa-solid fa-phone"></i></a> 01923982</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/Mauricio Ferraz Silva CV.pdf" download class="btn btn2">Download my CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Nome" required>
+                    <input type="text" name="Name" placeholder="Your Nome" required>
+                    <textarea name="Message" rows="16" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+<div class="copyright">
+    <p>Copyright Mauri.corp</p>
+</div>
+
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabContents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabContent of tabContents){
+            tabContent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+
+
+    var sideMenu = document.getElementById("sideMenu");
+    function openMenu(){
+        sideMenu.style.right = "0"
+    }
+
+    function closeMenu(){
+        sideMenu.style.right = "-200px"
+    }
+</script>
+
+</body>
+</html>
